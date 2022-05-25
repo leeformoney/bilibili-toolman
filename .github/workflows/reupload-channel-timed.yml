@@ -28,7 +28,7 @@ env:
 on:
   schedule:
     # 在这里修改 cron 定时配置；撤除注释后，此处为 每天中午 12 点触发检测
-    # - cron: '1 * * * *'
+    # - cron: '* 15 * * *'
   workflow_dispatch:
 
 jobs:
