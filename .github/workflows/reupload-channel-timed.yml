@@ -20,7 +20,7 @@ env:
   # e.g. now (下载今天上传的视频)
   # e.g. now-1day (下载昨天到今天上传的视频)
   # e.g. 220430~220501 (下载 2022年4月30日~2022年5月1日 的视频)            
-  LIMIT : 1
+  LIMIT : 3
   # 一次性最多上传的视频数量
   SEPERATE : false
   # 将多个视频分开上传
@@ -28,7 +28,7 @@ env:
 on:
   schedule:
     # 在这里修改 cron 定时配置；撤除注释后，此处为 每天中午 12 点触发检测
-    # - cron: '0 18 * * *'
+    # - cron: '1 * * * *'
   workflow_dispatch:
 
 jobs:
