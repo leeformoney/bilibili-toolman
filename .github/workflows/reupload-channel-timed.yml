@@ -5,7 +5,7 @@
 name: 定时转载
 
 env:
-  CHANNEL_URL :  'https://www.youtube.com/c/asmryeonchu'
+  CHANNEL_URL :  'https://www.youtube.com/c/JustASMR'
   # 频道链接，如 https://www.youtube.com/user/devilleon7
   TITLE_FORMAT : '${title}'
   # 标题格式 (如：[转载][{uploader}]{title})
